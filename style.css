@@ -1,0 +1,11 @@
+:root {
+  --page-1-color: red;
+  --page-1-color: royalblue;
+  --page-1-color: yellow;
+  --page-1-color: green;
+  --animate-speed: 1s;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
