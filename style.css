@@ -70,11 +70,22 @@ body {
 
 /* page animation */
 #page-1 h1 {
-  transform: translateY(-1200px);
+  transform: translateY(-1250px);
   animation: heading var(--animate-speed) forwards ease-in;
 }
 
+#page-1 p {
+  transform: translateX(-1850px);
+  animation: textP var(--animate-speed) forwards ease-in 1.5s;
+}
+
 @keyframes heading {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes textP {
   to {
     transform: translateY(0);
   }
